@@ -2,9 +2,12 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 .button {
-    display: none;
+    display: block;
+    margin: 10px;
+    cursor: pointer;
 }
 .popup-container {
+    display: none;
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
